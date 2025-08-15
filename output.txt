@@ -1,0 +1,104 @@
+W0814 21:04:06.840000 14397 site-packages/torch/utils/cpp_extension.py:2425] TORCH_CUDA_ARCH_LIST is not set, all archs for visible cards are included for compilation. 
+W0814 21:04:06.840000 14397 site-packages/torch/utils/cpp_extension.py:2425] If this is not desired, please set os.environ['TORCH_CUDA_ARCH_LIST'] to specific architectures.
+[2025-08-14 21:04:09] server_args=ServerArgs(model_path='qwen/qwen2.5-0.5b-instruct', tokenizer_path='qwen/qwen2.5-0.5b-instruct', tokenizer_mode='auto', skip_tokenizer_init=False, load_format='auto', model_loader_extra_config='{}', trust_remote_code=False, context_length=None, is_embedding=False, enable_multimodal=None, revision=None, model_impl='auto', host='0.0.0.0', port=30000, skip_server_warmup=False, warmups=None, nccl_port=None, dtype='auto', quantization=None, quantization_param_path=None, kv_cache_dtype='auto', mem_fraction_static=0.879, max_running_requests=None, max_queued_requests=9223372036854775807, max_total_tokens=None, chunked_prefill_size=2048, max_prefill_tokens=16384, schedule_policy='fcfs', schedule_conservativeness=1.0, cpu_offload_gb=0, page_size=1, hybrid_kvcache_ratio=None, swa_full_tokens_ratio=0.8, disable_hybrid_swa_memory=False, device='cuda', tp_size=1, pp_size=1, max_micro_batch_size=None, stream_interval=1, stream_output=False, random_seed=997471925, constrained_json_whitespace_pattern=None, watchdog_timeout=300, dist_timeout=None, download_dir=None, base_gpu_id=0, gpu_id_step=1, sleep_on_idle=False, log_level='info', log_level_http=None, log_requests=False, log_requests_level=2, crash_dump_folder=None, show_time_cost=False, enable_metrics=False, enable_metrics_for_all_schedulers=False, bucket_time_to_first_token=None, bucket_inter_token_latency=None, bucket_e2e_request_latency=None, collect_tokens_histogram=False, decode_log_interval=40, enable_request_time_stats_logging=False, kv_events_config=None, api_key=None, served_model_name='qwen/qwen2.5-0.5b-instruct', chat_template=None, completion_template=None, file_storage_path='sglang_storage', enable_cache_report=False, reasoning_parser=None, tool_call_parser=None, tool_server=None, dp_size=1, load_balance_method='round_robin', dist_init_addr=None, nnodes=1, node_rank=0, json_model_override_args='{}', preferred_sampling_params=None, enable_lora=None, max_lora_rank=None, lora_target_modules=None, lora_paths=None, max_loaded_loras=None, max_loras_per_batch=8, lora_backend='triton', attention_backend=None, decode_attention_backend=None, prefill_attention_backend=None, sampling_backend='flashinfer', grammar_backend='xgrammar', mm_attention_backend=None, speculative_algorithm=None, speculative_draft_model_path=None, speculative_num_steps=None, speculative_eagle_topk=None, speculative_num_draft_tokens=None, speculative_accept_threshold_single=1.0, speculative_accept_threshold_acc=1.0, speculative_token_map=None, ep_size=1, moe_a2a_backend=None, enable_flashinfer_cutlass_moe=False, enable_flashinfer_trtllm_moe=False, enable_flashinfer_allreduce_fusion=False, deepep_mode='auto', ep_num_redundant_experts=0, ep_dispatch_algorithm='static', init_expert_location='trivial', enable_eplb=False, eplb_algorithm='auto', eplb_rebalance_num_iterations=1000, eplb_rebalance_layers_per_chunk=None, expert_distribution_recorder_mode=None, expert_distribution_recorder_buffer_size=1000, enable_expert_distribution_metrics=False, deepep_config=None, moe_dense_tp_size=None, enable_hierarchical_cache=False, hicache_ratio=2.0, hicache_size=0, hicache_write_policy='write_through_selective', hicache_io_backend='kernel', hicache_mem_layout='layer_first', hicache_storage_backend=None, hicache_storage_prefetch_policy='best_effort', enable_double_sparsity=False, ds_channel_config_path=None, ds_heavy_channel_num=32, ds_heavy_token_num=256, ds_heavy_channel_type='qk', ds_sparse_decode_threshold=4096, disable_radix_cache=False, cuda_graph_max_bs=8, cuda_graph_bs=None, disable_cuda_graph=False, disable_cuda_graph_padding=False, enable_profile_cuda_graph=False, enable_cudagraph_gc=False, enable_nccl_nvls=False, enable_symm_mem=False, enable_tokenizer_batch_encode=False, disable_outlines_disk_cache=False, disable_custom_all_reduce=False, enable_mscclpp=False, disable_overlap_schedule=False, enable_mixed_chunk=False, enable_dp_attention=False, enable_dp_lm_head=False, enable_two_batch_overlap=False, tbo_token_distribution_threshold=0.48, enable_torch_compile=False, torch_compile_max_bs=32, torchao_config='', enable_nan_detection=False, enable_p2p_check=False, triton_attention_reduce_in_fp32=False, triton_attention_num_kv_splits=8, num_continuous_decode_steps=1, delete_ckpt_after_loading=False, enable_memory_saver=False, allow_auto_truncate=False, enable_custom_logit_processor=False, flashinfer_mla_disable_ragged=False, disable_shared_experts_fusion=False, disable_chunked_prefix_cache=False, disable_fast_image_processor=False, enable_return_hidden_states=False, enable_triton_kernel_moe=False, enable_flashinfer_mxfp4_moe=False, scheduler_recv_interval=1, debug_tensor_dump_output_folder=None, debug_tensor_dump_input_file=None, debug_tensor_dump_inject=False, debug_tensor_dump_prefill_only=False, disaggregation_mode='null', disaggregation_transfer_backend='mooncake', disaggregation_bootstrap_port=8998, disaggregation_decode_tp=None, disaggregation_decode_dp=None, disaggregation_prefill_pp=1, disaggregation_ib_device=None, num_reserved_decode_tokens=512, pdlb_url=None, custom_weight_loader=[], weight_loader_disable_mmap=False, enable_pdmux=False, sm_group_num=3, enable_ep_moe=False, enable_deepep_moe=False)
+[2025-08-14 21:04:10] Using default HuggingFace chat template with detected content format: string
+W0814 21:04:15.761000 14692 site-packages/torch/utils/cpp_extension.py:2425] TORCH_CUDA_ARCH_LIST is not set, all archs for visible cards are included for compilation. 
+W0814 21:04:15.761000 14692 site-packages/torch/utils/cpp_extension.py:2425] If this is not desired, please set os.environ['TORCH_CUDA_ARCH_LIST'] to specific architectures.
+W0814 21:04:15.880000 14693 site-packages/torch/utils/cpp_extension.py:2425] TORCH_CUDA_ARCH_LIST is not set, all archs for visible cards are included for compilation. 
+W0814 21:04:15.880000 14693 site-packages/torch/utils/cpp_extension.py:2425] If this is not desired, please set os.environ['TORCH_CUDA_ARCH_LIST'] to specific architectures.
+[2025-08-14 21:04:19] Attention backend not explicitly specified. Use flashinfer backend by default.
+[2025-08-14 21:04:19] Init torch distributed begin.
+[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[2025-08-14 21:04:19] Init torch distributed ends. mem usage=0.00 GB
+[2025-08-14 21:04:20] Ignore import error when loading sglang.srt.models.glm4v_moe: No module named 'transformers.models.glm4v_moe'
+[2025-08-14 21:04:20] Load weight begin. avail mem=23.16 GB
+[2025-08-14 21:04:21] Using model weights format ['*.safetensors']
+[2025-08-14 21:04:22] No model.safetensors.index.json found in remote.
+Loading safetensors checkpoint shards:   0% Completed | 0/1 [00:00<?, ?it/s]
+Loading safetensors checkpoint shards: 100% Completed | 1/1 [00:00<00:00,  6.63it/s]
+Loading safetensors checkpoint shards: 100% Completed | 1/1 [00:00<00:00,  6.62it/s]
+
+[2025-08-14 21:04:22] Load weight end. type=Qwen2ForCausalLM, dtype=torch.bfloat16, avail mem=22.12 GB, mem usage=1.04 GB.
+[2025-08-14 21:04:22] KV Cache is allocated. #tokens: 1688245, K size: 9.66 GB, V size: 9.66 GB
+[2025-08-14 21:04:22] Memory pool end. avail mem=2.18 GB
+[2025-08-14 21:04:22] Capture cuda graph begin. This can take up to several minutes. avail mem=1.54 GB
+[2025-08-14 21:04:22] Capture cuda graph bs [1, 2, 4, 8]
+  0%|          | 0/4 [00:00<?, ?it/s]Capturing batches (bs=8 avail_mem=1.54 GB):   0%|          | 0/4 [00:00<?, ?it/s]Capturing batches (bs=8 avail_mem=1.54 GB):  25%|██▌       | 1/4 [00:20<01:02, 20.91s/it]Capturing batches (bs=4 avail_mem=1.49 GB):  25%|██▌       | 1/4 [00:20<01:02, 20.91s/it]Capturing batches (bs=2 avail_mem=1.47 GB):  25%|██▌       | 1/4 [00:20<01:02, 20.91s/it]Capturing batches (bs=1 avail_mem=1.46 GB):  25%|██▌       | 1/4 [00:20<01:02, 20.91s/it]Capturing batches (bs=1 avail_mem=1.46 GB): 100%|██████████| 4/4 [00:21<00:00,  3.99s/it]Capturing batches (bs=1 avail_mem=1.46 GB): 100%|██████████| 4/4 [00:21<00:00,  5.26s/it]
+[2025-08-14 21:04:43] Capture cuda graph end. Time elapsed: 21.34 s. mem usage=0.10 GB. avail mem=1.44 GB.
+[2025-08-14 21:04:45] max_total_num_tokens=1688245, chunked_prefill_size=2048, max_prefill_tokens=16384, max_running_requests=4096, context_len=32768, available_gpu_mem=1.44 GB
+[2025-08-14 21:04:45] INFO:     Started server process [14397]
+[2025-08-14 21:04:45] INFO:     Waiting for application startup.
+[2025-08-14 21:04:45] INFO:     Application startup complete.
+[2025-08-14 21:04:45] INFO:     Uvicorn running on http://0.0.0.0:30000 (Press CTRL+C to quit)
+[2025-08-14 21:04:46] INFO:     127.0.0.1:49732 - "GET /get_model_info HTTP/1.1" 200 OK
+[2025-08-14 21:04:46] Prefill batch. #new-seq: 1, #new-token: 6, #cached-token: 0, token usage: 0.00, #running-req: 0, #queue-req: 0, 
+[2025-08-14 21:04:50] INFO:     127.0.0.1:49740 - "POST /generate HTTP/1.1" 200 OK
+[2025-08-14 21:04:50] The server is fired up and ready to roll!
+[2025-08-14 21:07:06] INFO:     127.0.0.1:44806 - "GET / HTTP/1.1" 404 Not Found
+[2025-08-14 21:07:06] INFO:     127.0.0.1:44806 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+[2025-08-14 21:08:03] INFO:     127.0.0.1:55174 - "GET / HTTP/1.1" 404 Not Found
+[2025-08-14 21:08:28] INFO:     127.0.0.1:48210 - "GET / HTTP/1.1" 404 Not Found
+[2025-08-14 21:08:38] INFO:     127.0.0.1:54816 - "GET / HTTP/1.1" 404 Not Found
+[2025-08-14 21:09:09] INFO:     127.0.0.1:41238 - "GET / HTTP/1.1" 404 Not Found
+[2025-08-14 21:10:09] INFO:     127.0.0.1:60956 - "GET / HTTP/1.1" 404 Not Found
+[2025-08-14 21:10:09] INFO:     127.0.0.1:60956 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+[2025-08-14 21:10:40] INFO:     127.0.0.1:38834 - "GET /get_model_info HTTP/1.1" 200 OK
+[2025-08-14 21:10:55] [http_server] Error: Either text, input_ids or input_embeds should be provided.
+[2025-08-14 21:10:55] INFO:     127.0.0.1:43934 - "POST /generate HTTP/1.1" 400 Bad Request
+[2025-08-14 21:11:21] INFO:     127.0.0.1:53474 - "GET /get_model_info HTTP/1.1" 200 OK
+[2025-08-14 21:11:54] INFO:     127.0.0.1:56164 - "GET /get_model_info HTTP/1.1" 200 OK
+[2025-08-14 21:12:04] INFO:     127.0.0.1:60268 - "GET /get_model_info HTTP/1.1" 200 OK
+[2025-08-14 21:12:15] INFO:     127.0.0.1:35046 - "GET /generate HTTP/1.1" 405 Method Not Allowed
+Process Process-2:
+Process Process-1:
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "/opt/conda/envs/infEngine/lib/python3.12/multiprocessing/process.py", line 314, in _bootstrap
+    self.run()
+  File "/opt/conda/envs/infEngine/lib/python3.12/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/opt/conda/envs/infEngine/lib/python3.12/site-packages/sglang/srt/managers/scheduler.py", line 2579, in run_scheduler_process
+    scheduler.event_loop_overlap()
+  File "/opt/conda/envs/infEngine/lib/python3.12/site-packages/torch/utils/_contextlib.py", line 120, in decorate_context
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/conda/envs/infEngine/lib/python3.12/site-packages/sglang/srt/managers/scheduler.py", line 789, in event_loop_overlap
+    recv_reqs = self.recv_requests()
+                ^^^^^^^^^^^^^^^^^^^^
+  File "/opt/conda/envs/infEngine/lib/python3.12/site-packages/sglang/srt/managers/scheduler.py", line 984, in recv_requests
+    break
+KeyboardInterrupt
+  File "/opt/conda/envs/infEngine/lib/python3.12/multiprocessing/process.py", line 314, in _bootstrap
+    self.run()
+  File "/opt/conda/envs/infEngine/lib/python3.12/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/opt/conda/envs/infEngine/lib/python3.12/site-packages/sglang/srt/managers/detokenizer_manager.py", line 275, in run_detokenizer_process
+    manager.event_loop()
+  File "/opt/conda/envs/infEngine/lib/python3.12/site-packages/sglang/srt/managers/detokenizer_manager.py", line 109, in event_loop
+    recv_obj = self.recv_from_scheduler.recv_pyobj()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/conda/envs/infEngine/lib/python3.12/site-packages/zmq/sugar/socket.py", line 989, in recv_pyobj
+    msg = self.recv(flags)
+          ^^^^^^^^^^^^^^^^
+  File "zmq/backend/cython/_zmq.py", line 1203, in zmq.backend.cython._zmq.Socket.recv
+    def recv(self, flags=0, copy: bint = True, track: bint = False):
+    ^^^^^^^^^^^
+  File "zmq/backend/cython/_zmq.py", line 1238, in zmq.backend.cython._zmq.Socket.recv
+    return _recv_copy(self.handle, flags)
+    ^^^^^^^^^^^
+  File "zmq/backend/cython/_zmq.py", line 1393, in zmq.backend.cython._zmq._recv_copy
+    _check_rc(rc)
+    ^^^^^^^^^^^
+  File "zmq/backend/cython/_zmq.py", line 176, in zmq.backend.cython._zmq._check_rc
+    PyErr_CheckSignals()
+    ^^^^^^^^^^^
+KeyboardInterrupt
+[2025-08-14 21:18:35] INFO:     Shutting down
+[2025-08-14 21:18:35] INFO:     Waiting for application shutdown.
+[2025-08-14 21:18:35] INFO:     Application shutdown complete.
+[2025-08-14 21:18:35] INFO:     Finished server process [14397]
